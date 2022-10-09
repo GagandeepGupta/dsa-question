@@ -8,7 +8,7 @@ void print(int arr[][100],int n,int m){
 	int startcol=0;
 	int endcol=m-1;
 
-	while(....){
+	while(startrow<=endrow  and startcol<=endcol){
 		//startRow
 		for(int col=startcol;col<=endcol;col++){
 			cout<<arr[startrow][col]<<",";
@@ -47,7 +47,7 @@ int main(){
 	               {9 ,10,11,12},
 	               {13,14,15,16}
 	};
-	int n=4;
+	int n=4,m=4;
 	print(arr,n,m);
 }
 	
